@@ -1,0 +1,14 @@
+{
+  "name": "one-nz-delay-relay",
+  "version": "1.0.0",
+  "description": "Watches One NZ station channels for staff delay messages and relays an apology to the customer channel.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
